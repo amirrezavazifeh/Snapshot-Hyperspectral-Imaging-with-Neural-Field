@@ -30,8 +30,7 @@ In our approach, we address this challenge by combining with **implicit neural r
   <strong>f<sub>θ</sub>(x, y, λ) → I(x, y, λ)</strong>
 </p>
 
-where (<em>x</em>, <em>y</em>, <em>λ</em>) are spatial–spectral coordinates, and <strong>f<sub>θ</sub></strong> is a <strong>SIREN network</strong> (sinusoidal MLP).  
-The sinusoidal activation captures high-frequency spatial and spectral structures that ReLU-based networks typically miss.
+where (<em>x</em>, <em>y</em>, <em>λ</em>) are spatial–spectral coordinates, and <strong>f<sub>θ</sub></strong> is a <strong>SIREN network</strong> (sinusoidal MLP). The sinusoidal activation captures high-frequency spatial and spectral structures that ReLU-based networks miss, a limitation called spectral bias.
 
 The model is trained to minimize a <strong>mean squared reconstruction loss</strong> between predicted intensities and the sparse coded measurements.  
 Once optimized, <strong>f<sub>θ</sub></strong> becomes a <strong>fully continuous hyperspectral field</strong>, from which any wavelength or combination can be queried and visualized at arbitrary resolution.
