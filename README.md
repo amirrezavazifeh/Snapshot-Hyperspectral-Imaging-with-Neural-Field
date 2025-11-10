@@ -44,7 +44,7 @@ This approach enables reconstruction of a complete hyperspectral cube from a sin
   <em>Figure 1: Overview of the proposed snapshot hyperspectral reconstruction framework using implicit neural representation.</em>
 </p>
 
-## Key Features
+### Key Features
 
 - ✅ **Single-shot reconstruction** from sparse coded measurements  
 - ✅ **Fully unsupervised** optimization (no pretraining or priors)  
