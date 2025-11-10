@@ -58,7 +58,7 @@ Below are qualitative reconstruction results for one spectral band from each dat
 ---
 
 <p align="center">
-  <img src="Results/CS-hsdb/video/CS-hsdb.png" width="70%" alt="CS-hsdb result">
+  <img src="Results/CS-hsdb/video/CS-hsdb.png" width=100%" alt="CS-hsdb result">
 </p>
 <p align="center">
   <em>Reconstruction result for one spectral band from the CS-hsdb dataset.</em><br>
@@ -68,7 +68,7 @@ Below are qualitative reconstruction results for one spectral band from each dat
 ---
 
 <p align="center">
-  <img src="Results/HS-SOD/video/HS-SOD.png" width="70%" alt="HS-SOD result">
+  <img src="Results/HS-SOD/video/HS-SOD.png" width="100%" alt="HS-SOD result">
 </p>
 <p align="center">
   <em>Reconstruction result for one spectral band from the HS-SOD dataset.</em><br>
@@ -78,21 +78,11 @@ Below are qualitative reconstruction results for one spectral band from each dat
 ---
 
 <p align="center">
-  <img src="Results/dermatology/video/dermatology.png" width="70%" alt="Dermatology result">
+  <img src="Results/dermatology/video/dermatology.png" width="100%" alt="Dermatology result">
 </p>
 <p align="center">
   <em>Reconstruction result for one spectral band from the Dermatology dataset.</em><br>
   🎬 <a href="Results/dermatology/video/dermatology_jet.mp4">Download full spectral reconstruction video</a>
-</p>
-
----
-
-<p align="center">
-  <img src="Results/pavia_u/video/pavia_u.png" width="70%" alt="PaviaU result">
-</p>
-<p align="center">
-  <em>Reconstruction result for one spectral band from the Pavia University dataset.</em><br>
-  🎬 <a href="Results/pavia_u/video/pavia_u_jet.mp4">Download full spectral reconstruction video</a>
 </p>
 
 ---
