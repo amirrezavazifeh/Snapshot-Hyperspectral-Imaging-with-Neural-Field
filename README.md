@@ -70,12 +70,6 @@ The method produces smooth, high-fidelity reconstructions from heavily undersamp
 
 ---
 
-## 📁 Repository Structure (suggested)
-
-
-
----
-
 ## 📚 Citation
 
 If you find this repository useful, please consider citing our paper:
