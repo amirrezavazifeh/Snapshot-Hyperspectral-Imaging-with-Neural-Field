@@ -21,7 +21,6 @@ However, conventional HSI systems face a fundamental **trade-off between spatial
 
 The last category—**snapshot hyperspectral imaging**—offers high-speed acquisition but poses a major reconstruction challenge.  
 Each pixel typically measures only one wavelength, making the recovery of the full 3D hyperspectral cube from a 2D snapshot an **ill-posed inverse problem**.  
-Classical reconstruction methods (e.g., CASSI) rely on matrix inversion or hand-tuned priors, which can be brittle and data-dependent.
 
 ---
 
