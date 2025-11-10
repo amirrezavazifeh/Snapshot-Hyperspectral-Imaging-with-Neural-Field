@@ -46,19 +46,33 @@ This approach enables reconstruction of a complete hyperspectral cube from a sin
 
 ---
 
-## Results
+## 🎥 Results
 
-We demonstrate robust hyperspectral reconstruction across several benchmark and real-world datasets.  
-The method produces smooth, high-fidelity reconstructions from heavily undersampled single-shot measurements.
+We tested our method on **four hyperspectral datasets**: **CS-hsdb**, **HS-SOD**, **Dermatology**, and **Pavia University**.  
+Each dataset contains 10 spectral bands, resulting in hyperspectral cubes of dimension *(H, W, 10)*.
+
+For each dataset, we masked **90% of the pixels** per spectral band and used **complementary aperture codes** across wavelengths.  
+Our reconstruction network then recovered the full hyperspectral cube from these sparse coded measurements.  
+Below are qualitative reconstruction results for one spectral band from each dataset.
 
 <p align="center">
-  <video src="Snapshot-Hyperspectral-Imaging-Neural-Field/Results/CS-hsdb/video/CS-hsdb_jet.mp4" width="700" controls>
-    Your browser does not support the video tag.
-  </video>
-  <br>
-  <em>Video: Hyperspectral reconstruction results on the CS-hsdb dataset, showing dense spectral recovery from a single coded snapshot.</em>
+  <img src="Snapshot-Hyperspectral-Imaging-Neural-Field/Results/CS-hsdb/video/CS-hsdb.png" width="45%" alt="CS-hsdb result">
+  <img src="Snapshot-Hyperspectral-Imaging-Neural-Field/Results/HS-SOD/video/HS-SOD.png" width="45%" alt="HS-SOD result"><br><br>
+  <img src="Snapshot-Hyperspectral-Imaging-Neural-Field/Results/dermatology/video/dermatology.png" width="45%" alt="Dermatology result">
+  <img src="Snapshot-Hyperspectral-Imaging-Neural-Field/Results/pavia_u/video/pavia_u.png" width="45%" alt="PaviaU result">
 </p>
 
+<p align="center">
+  <em>Figure: Reconstruction results for a single spectral band from each dataset.  
+  Each hyperspectral cube was reconstructed from only 10% of the observed pixels using complementary coded apertures.</em>
+</p>
+
+Videos showing full spectral reconstructions for each dataset can be downloaded here:
+
+- 🎬 [CS-hsdb Reconstruction Video](Snapshot-Hyperspectral-Imaging-Neural-Field/Results/CS-hsdb/video/CS-hsdb_jet.mp4)  
+- 🎬 [HS-SOD Reconstruction Video](Snapshot-Hyperspectral-Imaging-Neural-Field/Results/HS-SOD/video/HS-SOD_jet.mp4)  
+- 🎬 [Dermatology Reconstruction Video](Snapshot-Hyperspectral-Imaging-Neural-Field/Results/dermatology/video/dermatology_jet.mp4)  
+- 🎬 [Pavia University Reconstruction Video](Snapshot-Hyperspectral-Imaging-Neural-Field/Results/pavia_u/video/pavia_u_jet.mp4)
 
 ---
 
@@ -66,8 +80,6 @@ The method produces smooth, high-fidelity reconstructions from heavily undersamp
 
 - ✅ **Single-shot reconstruction** from sparse coded measurements  
 - ✅ **Fully unsupervised** optimization (no pretraining or priors)  
-- ✅ **Continuous spatial–spectral representation** via INRs  
-- ✅ **SIREN activations** for fine detail and spectral smoothness  
 - ✅ **Sensor-agnostic design**, compatible with various aperture codes
 
 ---
