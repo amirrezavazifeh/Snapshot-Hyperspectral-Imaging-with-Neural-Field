@@ -49,6 +49,12 @@ The sinusoidal activation captures high-frequency spatial and spectral structure
 The model is trained to minimize a **mean squared reconstruction loss** between predicted intensities and the sparse coded measurements.  
 Once optimized, \(f_\theta\) becomes a **fully continuous hyperspectral field**, from which any wavelength or combination can be queried and visualized at arbitrary resolution.
 
+<p align="center">
+  <img src="Code/Method.png" alt="Method Overview" width="700">
+  <br>
+  <em>Figure: Overview of the proposed snapshot hyperspectral reconstruction framework using compressive sensing and implicit neural representation.</em>
+</p>
+
 ---
 
 ## 🎥 Results
@@ -84,4 +90,3 @@ If you find this repository useful, please consider citing our paper:
   year      = {2025},
   paper     = {CTu1B.5}
 }
-
