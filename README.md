@@ -84,14 +84,6 @@ Below are qualitative reconstruction results for one spectral band from each dat
 
 ---
 
-<p align="center">
-  <img src="Results/pavia_u/video/pavia_u.png" width="100%" alt="PaviaU result"><br>
-  <em>Figure 5: Reconstruction result for one spectral band from the Pavia_u dataset. </em>
-  <a href="Results/pavia_u/video/pavia_u_jet.mp4">Download full spectral video</a>
-</p>
-
----
-
 ## Citation
 
 If you find this repository useful, please consider citing our paper:
