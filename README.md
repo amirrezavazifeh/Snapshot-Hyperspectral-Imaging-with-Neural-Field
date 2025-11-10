@@ -51,7 +51,14 @@ This approach enables reconstruction of a complete hyperspectral cube from a sin
 We demonstrate robust hyperspectral reconstruction across several benchmark and real-world datasets.  
 The method produces smooth, high-fidelity reconstructions from heavily undersampled single-shot measurements.
 
-*(Visualization or GIF of reconstruction results will be added here.)*
+<p align="center">
+  <video src="Snapshot-Hyperspectral-Imaging-Neural-Field/Results/CS-hsdb/video/CS-hsdb_jet.mp4" width="700" controls>
+    Your browser does not support the video tag.
+  </video>
+  <br>
+  <em>Video: Hyperspectral reconstruction results on the CS-hsdb dataset, showing dense spectral recovery from a single coded snapshot.</em>
+</p>
+
 
 ---
 
